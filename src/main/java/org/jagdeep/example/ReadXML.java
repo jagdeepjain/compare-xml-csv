@@ -24,7 +24,7 @@ public class ReadXML {
             SAXException, IOException {
         ArrayList<String> xml = new ArrayList<String>();
         File file = new File(
-                "/Users/jagdeepjain/compare-xml-text/src/test/resources/sample.xml");
+                "src/test/resources/sample.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(file);

@@ -14,7 +14,7 @@ public class ReadCSV {
     public ArrayList<String> getHeaders() {
         BufferedReader csvPath = null;
         ArrayList<String> header = new ArrayList<String>();
-        String filePath = "/Users/jagdeepjain/compare-xml-text/src/test/resources/sample.csv";
+        String filePath = "src/test/resources/sample.csv";
         try {
             String csvLine;
             csvPath = new BufferedReader(new FileReader(filePath));
