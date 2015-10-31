@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+	<customField order="1" name="customfield1" label="Employee ID" />
+	<customField order="2" name="customfield2" label="First Name" />
+	<customField order="3" name="customfield3" label="Middle Name" />
+	<customField order="4" name="customfield4" label="Last Name" />
+</Employee>
